@@ -940,13 +940,22 @@ nav {
 }
 
 footer {
-  padding: 2.5em 0;
+  padding: 5em 0 2.5em 0;
 }
 
 .footer__inner {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.footer__inner::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: -40px;
+  background-color: #F0F0F0;
 }
 
 .footer__left {
