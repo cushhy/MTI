@@ -1962,12 +1962,6 @@ table tr td {
   border-radius: 2px;
 }
 
-.table-vertical {
-  -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
-  transform: rotate(180deg);
-}
-
 .column {
   text-decoration: underline;
 }
