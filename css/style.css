@@ -613,6 +613,15 @@ nav {
   }
 }
 
+.seminar__column {
+  margin-right: 1.25em;
+}
+@media (max-width: 40.625em) {
+  .seminar__column {
+    margin-right: 0;
+  }
+}
+
 .seminar-title {
   margin-right: 1.25em;
 }
